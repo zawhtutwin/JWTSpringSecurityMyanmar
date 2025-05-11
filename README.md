@@ -71,7 +71,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.web.SecurityFilterChain;
 
-import com.clinic.app.filters.ApiKeyAuthFilter;
+import com.clinic.app.filters.JwtAuthenticationFilter ;
 
 @Configuration
 public class SecurityConfig {
